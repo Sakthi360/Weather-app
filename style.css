@@ -16,7 +16,6 @@ body{
     color: #fff;
     text-align: center;
     border-radius: 20px;
-    width: 100vw;
 }
 .search{
     width: 100%;
@@ -106,6 +105,7 @@ body{
     }
     .card{
         padding: 35px 25px;
+        width: 85vw;
     }
     .search{
         width: 100%;
