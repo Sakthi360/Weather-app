@@ -99,3 +99,44 @@ body{
     display: none;
 }
 
+@media screen and (max-width: 420px){
+    *{
+        font-size: 12px;
+    }
+    .card{
+        padding: 35px 25px;
+    }
+    .search{
+        width: 100%;
+    }
+    .weather{
+        width: 100%;
+    }
+    .search input{
+        width: 50%;
+        height: 45px;
+        font-size: 15px;
+    }
+    .search button{
+        height: 45px;
+        width: 45px;
+    }
+    .humidity, .wind {
+        font-size: 20px;
+    }    
+    .col img {
+        width: 35px;
+    }
+    .details {
+        padding: 0;
+    }
+    .empty, .error{
+        font-size: 15px;
+    }.weather-icon {
+        width: 150px;
+        margin-top: 20px;
+    }.weather h1 {
+        font-size: 70px;
+    }
+
+}
